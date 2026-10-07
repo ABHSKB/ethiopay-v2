@@ -1,0 +1,40 @@
+const taxBrackets = [
+    {
+        min:0,
+        max:2000,
+        rate:0,
+        deduction:0
+    },
+    {
+        min:2001,
+        max:4000,
+        rate:0.15,
+        deduction:300
+    },
+    {
+        min:4001,
+        max:7000,
+        rate:0.20,
+        deduction:500
+    },
+    {
+        min:7001,
+        max:10000,
+        rate:0.25,
+        deduction:850
+    },
+    {
+        min:10001,
+        max:14000,
+        rate:0.30,
+        deduction:1350
+    },
+    {
+        min:14001,
+        max:null,
+        rate:0.35,
+        deduction:2050
+    }
+];
+
+module.exports=taxBrackets;

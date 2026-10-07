@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    padding:40px;
+}
+
+.container{
+    width:500px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+h1{
+    text-align:center;
+}
+
+.subtitle{
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:25px;
+    color:#777;
+}
+
+.mode{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.mode button{
+    flex:1;
+}
+
+.input-section{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+input{
+    padding:10px;
+    font-size:16px;
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+}
+
+.buttons button{
+    flex:1;
+}
+
+button{
+    padding:10px;
+    cursor:pointer;
+}
+
+.result{
+    margin-top:30px;
+}
+
+.result h2{
+    margin-bottom:15px;
+}
+
+.result p{
+    padding:8px 0;
+    border-bottom:1px solid #ddd;
+}
+
+
+.history {
+    margin-top: 30px;
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.history-header h2 {
+    font-size: 20px;
+}
+
+.history-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.history-item p {
+    margin-bottom: 8px;
+    overflow-wrap: anywhere;
+}
+
+.history-item button {
+    margin-top: 5px;
+}
+
+.history-details {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    overflow-wrap: anywhere;
+}
+
+#historyMessage {
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.history {
+    margin-top: 30px;
+}
+
+.history h2 {
+    margin-bottom: 15px;
+}
+
+.history-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.history-item p {
+    margin: 5px 0;
+}
+
+.history-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.history-filter{
+    margin-bottom: 10px;
+}

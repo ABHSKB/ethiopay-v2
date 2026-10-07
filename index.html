@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EthioPay - Ethiopian Salary Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>EthioPay</h1>
+        <p class="subtitle">Ethiopian Salary & Tax Calculator</p>
+
+        <div class="mode">
+            <button id="grossBtn">Gross → Net</button>
+            <button id="netBtn">Net → Gross</button>
+        </div>
+
+        <div class="input-section">
+            <label id="salaryLabel">Gross Salary (ETB)</label>
+            <input type="number" id="salaryInput" placeholder="Enter salary">
+        </div>
+
+        <p id="message"></p>
+
+        <div class="buttons">
+            <button id="calculate">Calculate</button>
+            <button id="clear">Clear</button>
+        </div>
+
+        <div class="result">
+
+            <h2>Result</h2>
+
+            <p>
+                Gross Salary:
+                <span id="grossSalary">-</span>
+            </p>
+
+            <p>
+                Net Salary:
+                <span id="netSalary">-</span>
+            </p>
+
+            <p>
+                Tax Rate:
+                <span id="taxRate">-</span>
+            </p>
+
+            <p>
+                Tax Deduction:
+                <span id="taxDeduction">-</span>
+            </p>
+
+            <p>
+                Income Tax:
+                <span id="incomeTax">-</span>
+            </p>
+
+            <p>
+                Pension (7%):
+                <span id="pension">-</span>
+            </p>
+
+            <p>
+                Total Deduction:
+                <span id="totalDeduction">-</span>
+            </p>
+
+        </div>
+
+        <div class="history">
+
+            <div class="history-header">
+                <h2>Salary History</h2>
+
+                <button id="clearHistory">
+                    Clear History
+                </button>
+            </div>
+
+            <p id="historyMessage"></p>
+
+            <div class="history-filter">
+                <button id="allHistory">All</button>
+                <button id="grossHistory">Gross → Net</button>
+                <button id="netHistory">Net → Gross</button>
+            </div>
+
+            <div id="historyList"></div>
+
+            <div class="pagination">
+
+                <button id="previous">
+                    Previous
+                </button>
+
+                <span id="pageNumber">
+                    Page 1
+                </span>
+
+                <button id="next">
+                    Next
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
